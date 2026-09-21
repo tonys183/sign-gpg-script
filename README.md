@@ -15,9 +15,9 @@ Donde:
 Además, el archivo de la asignación deberá ir acompañado de los archivos `.tsr`, `.asc` y `.sha256`.
 
 Por ejemplo:
-2024068397-iteracion1.pdf
-2024068397-iteracion1.pdf.tsr
-2024068397-iteracion1.pdf.asc
+2024068397-iteracion1.pdf  
+2024068397-iteracion1.pdf.tsr  
+2024068397-iteracion1.pdf.asc  
 2024068397-iteracion1.pdf.sha256
 
 
