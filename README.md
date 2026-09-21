@@ -23,7 +23,11 @@ Por ejemplo:
 
 ## 3. Ejecutar script
 ### Windows
+```powershell
 .\make.ps1 -filePath "ruta"
+```
 
 ### Linux
+```bash
 ./make.sh "ruta"
+```
