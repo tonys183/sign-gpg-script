@@ -1,11 +1,11 @@
 # Firma GPG y sello de tiempo
 
 <p align="center">
-  <img alt="PowerShell" src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square">
-  <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white">
-  <img alt="GPG" src="https://img.shields.io/badge/GPG-0093DD?style=flat-square&logo=gnuprivacyguard&logoColor=white">
-  <img alt="OpenSSL" src="https://img.shields.io/badge/OpenSSL-721412?style=flat-square&logo=openssl&logoColor=white">
-  <a href="LICENSE"><img alt="Licencia GPL-3.0" src="https://img.shields.io/github/license/tonys183/sign-gpg-script?style=flat-square&label=Licencia&logo=opensourceinitiative&logoColor=white"></a>
+  <img alt="PowerShell" src="https://img.shields.io/badge/-PowerShell-5391FE?style=plastic">
+  <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=plastic&logo=gnubash&logoColor=white">
+  <img alt="GPG" src="https://img.shields.io/badge/GPG-0093DD?style=plastic&logo=gnuprivacyguard&logoColor=white">
+  <img alt="OpenSSL" src="https://img.shields.io/badge/OpenSSL-721412?style=plastic&logo=openssl&logoColor=white">
+  <a href="LICENSE"><img alt="Licencia GPL-3.0" src="https://img.shields.io/github/license/tonys183/sign-gpg-script?style=plastic&label=Licencia&logo=opensourceinitiative&logoColor=white"></a>
 </p>
 
 <p align="center">
