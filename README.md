@@ -1,33 +1,31 @@
-﻿# Instrucciones
+# Firma GPG y sello de tiempo
 
-## 1. Formato de los archivos
-El formato de los archivos de los resúmenes y de otras tareas será:
-[Carne]-[Asignacion][Numero].[Extension]
-Sin los paréntesis cuadrados.
+Scripts para Windows y Linux que generan una firma digital GPG, un hash SHA-256 y un sello de tiempo para un archivo.
 
-Donde:
-- **Carne** es su número de carné.
-- **Asignacion** es el mismo nombre de la carpeta que representa la asignación, pero en singular y en minúscula.
-- **Numero** corresponde al número consecutivo de la asignación (números naturales sin ceros a la izquierda).
-- **Extension** se refiere a la extensión de la asignación (`pdf` o `tar.gz`).
+## Archivos generados
 
-## 2. Archivos adicionales
-Además, el archivo de la asignación deberá ir acompañado de los archivos `.tsr`, `.asc` y `.sha256`.
+Los archivos se guardan junto al original, conservando su nombre y añadiendo estas extensiones:
 
-Por ejemplo:  
-2024068397-iteracion1.pdf  
-2024068397-iteracion1.pdf.tsr  
-2024068397-iteracion1.pdf.asc  
-2024068397-iteracion1.pdf.sha256
+- `.asc`: firma GPG separada en formato ASCII.
+- `.sha256`: hash SHA-256 del archivo.
+- `.tsr`: respuesta de sello de tiempo del servicio TSA.
 
+## Ejecución
 
-## 3. Ejecutar script
+Se requiere GPG con una clave privada de firma configurada, OpenSSL y curl.
+
 ### Windows
+
+Desde la raíz del repositorio:
+
 ```powershell
-.\make.ps1 -filePath "ruta"
+.\win\make.ps1 -filePath "ruta\archivo.pdf"
 ```
 
 ### Linux
+
+Desde la raíz del repositorio:
+
 ```bash
-./make.sh "ruta"
+bash ./linux/make.sh "ruta/archivo.pdf"
 ```
